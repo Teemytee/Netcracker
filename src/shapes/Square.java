@@ -5,7 +5,7 @@ public class Square implements Shape {
 
     public Square(double side){
         if (side <= 0){
-            throw new IllegalArgumentException("Square side cannot be less or equal to zero");
+            throw new IllegalArgumentException("Square side cannot be less/equal to zero");
         } else{
             this.side = side;
         }

@@ -6,7 +6,7 @@ public class Triangle implements Shape {
 
     public Triangle(double width, double height){
         if(width <= 0 || height <= 0){
-            throw new IllegalArgumentException("triangle width/height cannot be lesser than 0");
+            throw new IllegalArgumentException("triangle width/height cannot be lesser/equal than 0");
         } else{
             this.width = width;
             this.height = height;
