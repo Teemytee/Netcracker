@@ -12,7 +12,6 @@ public class Leon implements Animal {
         this.species = Species.LEON;
     }
 
-
     @Override
     public String getName() {
         return this.name;

@@ -9,12 +9,6 @@ public class ZooClass implements Zoo {
     private List<CageClass> cages;
     private List<InhibitionLog> log;
 
-    /*public ZooClass(List<CageRealization> cages, List<InhibitionLog> log){
-        this.cages = cages;
-        this.log = log;
-    }*/
-
-
     @Override
     public void checkInAnimal(Animal animal) {
         boolean haveVacantCage = false;

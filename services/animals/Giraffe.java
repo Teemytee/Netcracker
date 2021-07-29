@@ -12,7 +12,6 @@ public class Giraffe implements Animal {
         this.species = Species.GIRAFFE;
     }
 
-
     @Override
     public String getName() {
         return this.name;

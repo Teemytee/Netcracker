@@ -12,7 +12,6 @@ public class Squirrel implements Animal {
         this.species = Species.SQUIRREL;
     }
 
-
     @Override
     public String getName() {
         return this.name;

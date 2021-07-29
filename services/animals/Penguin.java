@@ -12,7 +12,6 @@ public class Penguin implements Animal {
         this.species = Species.PENGUIN;
     }
 
-
     @Override
     public String getName() {
         return this.name;
